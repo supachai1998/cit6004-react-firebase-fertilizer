@@ -164,9 +164,9 @@ const App = () => {
   };
   const handlesubmit_modal_his_fertilizer = (e) => {
     e.preventDefault();
-    code_f && detail_his && date_his && code_plants && code_garden
+    key_f && detail_his && date_his && code_plants && code_garden
       ? insert_h_f()
-      : console.log("error");
+      : console.log(`error : ${key_f} , ${detail_his} , ${date_his} , ${code_plants} , ${code_garden} `);
   };
   const insert_f = () => {
     edit_modal_fertilizer
@@ -203,7 +203,7 @@ const App = () => {
       : 
       firebase.database().ref("fertilizer_history").push({
           date: date_his,
-          key_f: code_f,
+          key_f: key_f,
           code_garden: code_garden,
           code_plants: code_plants,
           detail_his: detail_his,
