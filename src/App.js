@@ -210,6 +210,7 @@ const App = () => {
           status: true,
         });
     setmodal_his_fertilizer(false);
+    setedit_modal_his_fertilizer(false);
     cls_h();
   };
   const cls_f = () => {
