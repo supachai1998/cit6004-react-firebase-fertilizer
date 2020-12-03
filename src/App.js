@@ -42,7 +42,7 @@ const App = () => {
   const [date_his, setdate_his] = useState("");
   const [detail_his, setdetail_his] = useState("");
   // end init
-
+  
   let _plant_name,
     _garden_code,
     _fertilizer_code,
@@ -106,6 +106,7 @@ const App = () => {
       await firebase
         .database()
         .ref("fertilizer_history")
+        .orderByChild("date")
         .on("value", (snapshot) => {
           let newQuery = [];
           snapshot.forEach((data) => {
@@ -157,6 +158,7 @@ const App = () => {
         });
     };
     fetch_firebase();
+    console.log = console.warn = console.error = () => {};
   }, [_plant_name, _garden_code, _fertilizer_code, _fertilizer_name]);
   const handlesubmit_modal_fertilizer = (e) => {
     e.preventDefault();
@@ -499,9 +501,8 @@ const App = () => {
       {!fertilizer ? (
         <Loading />
       ) : (
-        <>
           <Table striped bordered hover variant="dark">
-            <thead>
+            <thead >
               <tr>
                 <th>รหัสปุ๋ย</th>
                 <th>ชื่อปุ๋ย</th>
@@ -572,9 +573,9 @@ const App = () => {
               ))}
             </tbody>
           </Table>
-          <hr />
-        </>
+          
       )}
+      <hr />
       <Button
         className="float-right btn-success"
         onClick={() => setmodal_his_fertilizer(true)}
