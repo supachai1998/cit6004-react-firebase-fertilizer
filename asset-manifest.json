@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cit6004-react-firebase-fertilizer/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/cit6004-react-firebase-fertilizer/static/js/main.0f2e519b.chunk.js",
+    "main.js.map": "/cit6004-react-firebase-fertilizer/static/js/main.0f2e519b.chunk.js.map",
+    "runtime-main.js": "/cit6004-react-firebase-fertilizer/static/js/runtime-main.5c29cdfd.js",
+    "runtime-main.js.map": "/cit6004-react-firebase-fertilizer/static/js/runtime-main.5c29cdfd.js.map",
+    "static/css/2.081f420c.chunk.css": "/cit6004-react-firebase-fertilizer/static/css/2.081f420c.chunk.css",
+    "static/js/2.7b877188.chunk.js": "/cit6004-react-firebase-fertilizer/static/js/2.7b877188.chunk.js",
+    "static/js/2.7b877188.chunk.js.map": "/cit6004-react-firebase-fertilizer/static/js/2.7b877188.chunk.js.map",
+    "static/js/3.a9dff1aa.chunk.js": "/cit6004-react-firebase-fertilizer/static/js/3.a9dff1aa.chunk.js",
+    "static/js/3.a9dff1aa.chunk.js.map": "/cit6004-react-firebase-fertilizer/static/js/3.a9dff1aa.chunk.js.map",
+    "index.html": "/cit6004-react-firebase-fertilizer/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/cit6004-react-firebase-fertilizer/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "/cit6004-react-firebase-fertilizer/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.7b877188.chunk.js.LICENSE.txt": "/cit6004-react-firebase-fertilizer/static/js/2.7b877188.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c29cdfd.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.7b877188.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.0f2e519b.chunk.js"
+  ]
+}
